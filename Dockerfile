@@ -35,5 +35,7 @@ RUN bundle install --no-cache
 EXPOSE 8080
 
 COPY bin/entry_point.sh /tmp/entry_point.sh
+COPY _config_local.yml /srv/jekyll/_config_local.yml
+COPY _config.yml /srv/jekyll/_config.yml
 
 CMD ["/tmp/entry_point.sh"]
