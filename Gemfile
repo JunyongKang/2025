@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    # gem 'jekyll'
-    gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
+    gem 'jekyll'
+    # gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
